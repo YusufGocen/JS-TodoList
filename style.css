@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Source Serif Pro', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background :url("https://i.pinimg.com/236x/b6/f9/5c/b6f95c0718a830ab1a02c6bdd98704a7.jpg") center ;
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    background-color: transparent;
+}
+
+.card-title{
+    font-size: 35px;
+    color: #555555;
+}
+.container{
+    background-color: #ffffff21;
+    box-shadow: 0 15px 40px -20px black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-control{
+    background-color: #f4f4f4bd;
+}
+.btn{
+    border: none;
+    background-color: #ACE1AF;
+    color: white;
+    font-size: 18px;
+}
+.btn:hover{
+    color: #555555;
+    background: #E2EFCF;
+    transition: 1s;
+}
